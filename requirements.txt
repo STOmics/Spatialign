@@ -1,0 +1,7 @@
+anndata>=0.8.0
+scanpy>=1.8.2
+torch==1.10.0
+torch-geometric>=2.0.2
+torch-cluster>=1.5.9
+torch-scatter>=2.0.9
+torch-sparse>=0.6.12

@@ -1,4 +1,5 @@
-[![python >=3.8.0](https://img.shields.io/badge/python-3.8.0-brightgreen)](https://www.python.org/)      
+[![python >=3.8.0](https://img.shields.io/badge/python-3.8.0-brightgreen)](https://www.python.org/)
+[![spatiAlign_Tutorial-latest](https://img.shields.io/badge/Documentation-latest-informational)](https://spatialign-tutorials.readthedocs.io/en/latest/Installation.html)
 # An Unsupervised Contrastive Learning Model for Data Integration of Spatially Resolved Transcriptomics               
 Integrative analysis of spatially resolved transcriptomics datasets empowers a deeper understanding of complex biological systems. However, integrating multiple tissue sections presents challenges for batch effects removal, particularly when the sections are measured by various technologies or collected at different times. Here we propose spatiAlign, an unsupervised contrastive learning model that employs the expression of all measured genes and spatial location of cells, to integrate multiple tissue sections. It enables the joint downstream analysis of multiple datasets not only in low-dimensional embeddings, but also in the reconstructed full expression space. In benchmarking analysis, spatiAlign outperforms state-of-the-art methods in learning joint and discriminative representations for tissue sections, each potentially characterized by complex batch effects or unique biological characteristics. Furthermore, we demonstrate spatiAlign’s benefits for the integrative analysis of time-series brain sections, including spatial clustering, differential expression analysis, and particularly the trajectory inference that requires corrected gene expression matrix.
             
@@ -18,16 +19,26 @@ Integrative analysis of spatially resolved transcriptomics datasets empowers a d
 - Slide-seq Datasets: (mouse hippocampus datasets) https://singlecell.broadinstitute.org/single_cell/study/SCP815/highly-sensitive-spatial-transcriptomics-at-near-cellular-resolution-with-slide-seqv2#study-summary, https://singlecell.broadinstitute.org/single_cell/study/SCP354/slide-seq-study#study-summary, and https://singlecell.broadinstitute.org/single_cell/study/SCP948/robust-decomposition-of-cell-type-mixtures-in-spatial-transcriptomics#study-summary, respectively.
 
 # Install     
-- [Quick Start](https://spatialign-tutorials.readthedocs.io/en/latest/)			
 
-Downloading python package **'spatialign-0.1.3-py3-none-linux_X86_64.whl'** from wheel folder
+- Downloading python package **'spatialign-0.1.3-py3-none-linux_X86_64.whl'** from wheel folder
 
 ```python
 pip install spatialign-0.1.3-py3-none-linux_X86_64.whl
 ```
-        
-# Usage
 
+- or git clone
+```python
+git clone https://github.com/STOmics/Spatialign.git
+
+cd Spatialign
+
+python setup.py install
+```
+
+        
+# Tutorial
+- [Quick Start](https://spatialign-tutorials.readthedocs.io/en/latest/)
+                        
 ```python
 from spatialign import Spatialign
 

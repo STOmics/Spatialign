@@ -1,8 +1,18 @@
 [![python >=3.8.0](https://img.shields.io/badge/python-3.8.0-brightgreen)](https://www.python.org/)
 [![spatiAlign_Tutorial-latest](https://img.shields.io/badge/Documentation-latest-informational)](https://spatialign-tutorials.readthedocs.io/en/latest/Installation.html)
+<<<<<<< HEAD
 [![Downloads](https://static.pepy.tech/badge/spatialign)](https://pepy.tech/project/spatialign)
 # spatiAlign: An Unsupervised Contrastive Learning Model for Data Integration of Spatially Resolved Transcriptomics
 Integrative analysis of spatially resolved transcriptomics datasets empowers a deeper understanding of complex biological systems. However, integrating multiple tissue sections presents challenges for batch effect removal, particularly when the sections are measured by various technologies or collected at different times. Here, we propose spatiAlign, an unsupervised contrastive learning model that employs the expression of all measured genes and the spatial location of cells, to integrate multiple tissue sections. It enables the joint downstream analysis of multiple datasets not only in low-dimensional embeddings but also in the reconstructed full expression space. In benchmarking analysis, spatiAlign outperforms state-of-the-art methods in learning joint and discriminative representations for tissue sections, each potentially characterized by complex batch effects or distinct biological characteristics. Furthermore, we demonstrate the benefits of spatiAlign for the integrative analysis of time-series brain sections, including spatial clustering, differential expression analysis, and particularly trajectory inference that requires a corrected gene expression matrix.
+=======
+# An Unsupervised Contrastive Learning Model for Data Integration of Spatially Resolved Transcriptomics               
+Integrative analysis of spatially resolved transcriptomics datasets empowers a deeper understanding of complex biological systems. However, integrating multiple tissue sections presents challenges for batch effect removal, particularly when the sections are measured by various technologies or collected at different times. Here, we propose spatiAlign, an unsupervised contrastive learning model that employs the expression of all measured genes and the spatial location of cells, to integrate multiple tissue sections. It enables the joint downstream analysis of multiple datasets not only in low-dimensional embeddings but also in the reconstructed full expression space. In benchmarking analysis, spatiAlign outperforms state-of-the-art methods in learning joint and discriminative representations for tissue sections, each potentially characterized by complex batch effects or distinct biological characteristics. Furthermore, we demonstrate the benefits of spatiAlign for the integrative analysis of time-series brain sections, including spatial clustering, differential expression analysis, and particularly trajectory inference that requires a corrected gene expression matrix.        
+        
+# News  
+- [2023.08.13]     
+  SpatiAlign is online at [BioRxiv](https://doi.org/10.1101/2023.08.08.552402).        
+  doi: [https://doi.org/10.1101/2023.08.08.552402](https://doi.org/10.1101/2023.08.08.552402)       
+>>>>>>> bc8e3f419d4a292366e6cd9890b69a07d220fc3e
             
         
 # Dependences       

@@ -49,11 +49,17 @@ git clone https://github.com/STOmics/Spatialign.git
 cd Spatialign
 
 python setup.py install
-```        
+```
+
+- or docker env
+```docker
+docker pull zhangchao162/spatialign
+```
+
         
         
 # Tutorial
-- [Quick Start](https://spatialign-tutorials.readthedocs.io/en/latest/)
+- [Quick Start](https://spatialign.readthedocs.io/en/latest/)
                         
 
 ```python

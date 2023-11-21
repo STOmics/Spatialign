@@ -1,12 +1,9 @@
 spatiAlign API
 ==============
 
-.. currentmodule:: spatialign.spatialign.trainer
-
-.. automodule:: spatialign.spatialign.trainer
+.. autoclass:: spatialign.spatialign.trainer.Spatialign
    :members:
-
-.. automethod:: Spatialign.train
-
-.. automethod:: Spatialign.alignment
+   
+   .. automethod:: train
+   .. automethod:: alignment
 

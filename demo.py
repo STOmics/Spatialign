@@ -85,6 +85,9 @@ if __name__ == "__main__":
                        n_neigh=args.n_neigh,
                        is_undirected=args.is_undirected,
                        latent_dims=args.latent_dims,
+                       tau1=args.tau1,
+                       tau2=args.tau2,
+                       tau3=args.tau3,
                        is_verbose=args.is_verbose,
                        seed=args.seed,
                        gpu=args.gpu,
@@ -93,9 +96,6 @@ if __name__ == "__main__":
     model.train(lr=args.lr,
                 max_epoch=args.max_epoch,
                 alpha=args.alpha,
-                patient=args.patient,
-                tau1=args.tau1,
-                tau2=args.tau2,
-                tau3=args.tau3)
+                patient=args.patient)
 
     model.alignment()

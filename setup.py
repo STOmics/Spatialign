@@ -7,7 +7,7 @@
 
 import setuptools
 
-__version__ = "0.1.3"
+__version__ = "1.0.2"
 
 requirements = open("requirements.txt").readline()
 
@@ -18,8 +18,8 @@ with open("README.md", "r") as fh:
 setuptools.setup(
     name="spatialign",
     version=__version__,
-    author="zhangchao5",
-    author_email="zhangchao5@genomics.cn",
+    author="Chao Zhang",
+    author_email="1623804006@qq.com",
     description="An Unsupervised Contrastive Learning Model for Data Integration of Spatially Resolved Transcriptomics",
     long_description=long_description,
     long_description_content_type="text/markdown",

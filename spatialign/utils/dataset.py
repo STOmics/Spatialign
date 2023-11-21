@@ -4,7 +4,6 @@
 # @Author  : zhangchao
 # @File    : dataset.py
 # @Email   : zhangchao5@genomics.cn
-# cython: language_level=3
 import scanpy as sc
 import torch
 import scipy.sparse as sp

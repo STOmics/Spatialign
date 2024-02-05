@@ -34,7 +34,7 @@ If you use `spatiAlign` in your work, please cite the publication as follows:
 [![torch_cluster-1.5.9](https://img.shields.io/badge/torch_cluster-1.5.9-green)](https://data.pyg.org/whl/torch-1.10.0%2Bcu113.html)
 [![torch_scatter-2.0.9](https://img.shields.io/badge/torch_scatter-2.0.9-informational)](https://data.pyg.org/whl/torch-1.10.0%2Bcu113.html)
 [![torch_sparse-0.6.12](https://img.shields.io/badge/torch_sparse-0.6.12-9cf)](https://data.pyg.org/whl/torch-1.10.0%2Bcu113.html)           
-
+> **Please pay attention to the matching versions of torch, torch_geometric, torch_cluster, torch_scatter and torch_sparse when installing.**                    
 
 
 # Install     

@@ -7,4 +7,7 @@ scipy
 sphinx-rtd-theme
 torch
 torch_geometric
+torch_cluster
+torch_scatter
+torch_sparse
 nbsphinx

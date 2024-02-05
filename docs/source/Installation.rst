@@ -69,4 +69,4 @@ Create conda environment and install Spatialign package.
 ---------------     
 .. code-block:: docker
   
-  docker pull zhangchao162/spatialign:latest
+  docker pull zhangchao162/spatialign:1.0.2

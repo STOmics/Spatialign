@@ -14,7 +14,10 @@ Welcome to spatiAlign's documentation!
    spatialign
    Tutorial-1-simulate-datasets
    Tutorial-2-Integrate-datasets-measured-by-different-platforms
-
+   DLPFC
+   mouse hippocampus
+   mouse embyro
+   about hyperparameter
 
 
 Overview

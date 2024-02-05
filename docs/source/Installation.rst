@@ -1,6 +1,6 @@
 Installation
 ==============
-The Spatialign package is developed based on the pytorch framework and can be implemented on both CPU and GPU.
+The spatiAlign package is developed based on the pytorch framework and can be implemented on both CPU and GPU.
 
 We recommend running the package on GPU. Please ensure that pytorch and CUDNN are installed correctly.
 
@@ -69,4 +69,4 @@ Create conda environment and install Spatialign package.
 ---------------     
 .. code-block:: docker
   
-  docker pull zhangchao162/spatialign
+  docker pull zhangchao162/spatialign:latest

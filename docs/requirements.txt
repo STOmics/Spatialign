@@ -1,2 +1,7 @@
 nbsphinx
 sphinx-rtd-theme
+anndata
+numpy
+scanpy
+scipy
+torch

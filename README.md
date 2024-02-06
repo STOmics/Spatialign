@@ -5,7 +5,7 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10453192.svg)](https://doi.org/10.5281/zenodo.10453192)           
 Integrative analysis of spatially resolved transcriptomics datasets empowers a deeper understanding of complex biological systems. However, integrating multiple tissue sections presents challenges for batch effect removal, particularly when the sections are measured by various technologies or collected at different times. Here, we propose spatiAlign, an unsupervised contrastive learning model that employs the expression of all measured genes and the spatial location of cells, to integrate multiple tissue sections. It enables the joint downstream analysis of multiple datasets not only in low-dimensional embeddings but also in the reconstructed full expression space. In benchmarking analysis, spatiAlign outperforms state-of-the-art methods in learning joint and discriminative representations for tissue sections, each potentially characterized by complex batch effects or distinct biological characteristics. Furthermore, we demonstrate the benefits of spatiAlign for the integrative analysis of time-series brain sections, including spatial clustering, differential expression analysis, and particularly trajectory inference that requires a corrected gene expression matrix.
         
-# News🔥  
+# News  
 - [2023.08.13]     
   SpatiAlign is online at [BioRxiv](https://doi.org/10.1101/2023.08.08.552402).        
   doi: [https://doi.org/10.1101/2023.08.08.552402](https://doi.org/10.1101/2023.08.08.552402)       
@@ -34,8 +34,7 @@ If you use `spatiAlign` in your work, please cite the publication as follows:
 [![torch_cluster-1.5.9](https://img.shields.io/badge/torch_cluster-1.5.9-green)](https://data.pyg.org/whl/torch-1.10.0%2Bcu113.html)
 [![torch_scatter-2.0.9](https://img.shields.io/badge/torch_scatter-2.0.9-informational)](https://data.pyg.org/whl/torch-1.10.0%2Bcu113.html)
 [![torch_sparse-0.6.12](https://img.shields.io/badge/torch_sparse-0.6.12-9cf)](https://data.pyg.org/whl/torch-1.10.0%2Bcu113.html)           
-> ## **Tips:**       
-> **Please pay attention to the matching versions of `torch`, `torch_geometric`, `torch_cluster`, `torch_scatter` and `torch_sparse` when installing.**                    
+> **Please pay attention to the matching versions of torch, torch_geometric, torch_cluster, torch_scatter and torch_sparse when installing.**                    
 
 
 # Install     
@@ -55,7 +54,7 @@ python setup.py install
 
 - or docker env
 ```docker
-docker pull zhangchao162/spatialign:1.0.2
+docker pull zhangchao162/spatialign
 ```
 
         

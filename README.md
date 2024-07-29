@@ -5,7 +5,10 @@
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.10453192.svg)](https://doi.org/10.5281/zenodo.10453192)           
 Integrative analysis of spatially resolved transcriptomics datasets empowers a deeper understanding of complex biological systems. However, integrating multiple tissue sections presents challenges for batch effect removal, particularly when the sections are measured by various technologies or collected at different times. Here, we propose spatiAlign, an unsupervised contrastive learning model that employs the expression of all measured genes and the spatial location of cells, to integrate multiple tissue sections. It enables the joint downstream analysis of multiple datasets not only in low-dimensional embeddings but also in the reconstructed full expression space. In benchmarking analysis, spatiAlign outperforms state-of-the-art methods in learning joint and discriminative representations for tissue sections, each potentially characterized by complex batch effects or distinct biological characteristics. Furthermore, we demonstrate the benefits of spatiAlign for the integrative analysis of time-series brain sections, including spatial clustering, differential expression analysis, and particularly trajectory inference that requires a corrected gene expression matrix.
         
-# News  
+# 🔥News         
+- 🚀 [2024.07.19]                   
+  SpatiAlign is onlien at [GigaScience](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giae042/7716933?searchresult=1)
+  doi: [https://doi.org/10.1093/gigascience/giae042](https://doi.org/10.1093/gigascience/giae042)           
 - [2023.08.13]     
   SpatiAlign is online at [BioRxiv](https://doi.org/10.1101/2023.08.08.552402).        
   doi: [https://doi.org/10.1101/2023.08.08.552402](https://doi.org/10.1101/2023.08.08.552402)       
@@ -14,15 +17,7 @@ Integrative analysis of spatially resolved transcriptomics datasets empowers a d
 # Citation
 If you use `spatiAlign` in your work, please cite the publication as follows:
 ```
-@article {Zhang2023.08.08.552402,
-	author = {Chao Zhang and Lin Liu and Ying Zhang and Mei Li and Shuangsang Fang and Qiang Kang and Ao Chen and Xun Xu and Yong Zhang and Yuxiang Li},
-	title = {spatiAlign: An Unsupervised Contrastive Learning Model for Data Integration of Spatially Resolved Transcriptomics},
-	elocation-id = {2023.08.08.552402},
-	year = {2023},
-	doi = {10.1101/2023.08.08.552402},
-	URL = {https://www.biorxiv.org/content/early/2023/08/15/2023.08.08.552402},
-	journal = {bioRxiv}
-}
+Zhang C, Liu L, Zhang Y, et al. spatiAlign: an unsupervised contrastive learning model for data integration of spatially resolved transcriptomics[J]. GigaScience, 2024, 13: giae042.         
 ```
                     
         

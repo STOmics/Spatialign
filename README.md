@@ -7,7 +7,7 @@ Integrative analysis of spatially resolved transcriptomics datasets empowers a d
         
 # 🔥News         
 - 🚀 [2024.07.19]                   
-  SpatiAlign is onlien at [GigaScience](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giae042/7716933?searchresult=1)
+  SpatiAlign is onlien at [GigaScience](https://academic.oup.com/gigascience/article/doi/10.1093/gigascience/giae042/7716933?searchresult=1)                      
   doi: [https://doi.org/10.1093/gigascience/giae042](https://doi.org/10.1093/gigascience/giae042)           
 - [2023.08.13]     
   SpatiAlign is online at [BioRxiv](https://doi.org/10.1101/2023.08.08.552402).        
